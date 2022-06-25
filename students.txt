@@ -1,0 +1,13 @@
+﻿studient registration system 
+
+    Its a web page that provides a simple set-up for student enrollment.
+The registration form has been designed to be user friendly and easy.
+
+Students
+
+ايمان حسن الامين محمد Frontend and Backend 
+ميساء حسن محمد سعيد Frontend and Backend 
+
+
+
+
