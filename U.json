@@ -1,0 +1,11 @@
+{
+  "phpunit.php": "path/to/php",           // Skip to use php in env path
+  "phpunit.phpunit": "path/to/phpunit",   // Skip to find in common places (vendor, *.phar)
+  "phpunit.args": [
+      "-c", "./phpunit.xml.dist"          // Any args, check `phpunit --help`
+  ],
+  "phpunit.paths": {                      // Map paths in remote environments.
+      "/local/path": "/remote/path",      // ${workspaceFolder} is replaced as in tasks.json
+      "${workspaceFolder}": "/remote/app"
+  }
+}

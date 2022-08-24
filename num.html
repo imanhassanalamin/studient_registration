@@ -1,81 +1,81 @@
 <html>
-<head>
+    <head>
+        <title>
+            Studient Registration
+        </title>
+    </head>
+    <body>
+        <form action="connect.php" name="StudentRegistration" onsubmit="return(validate());" method="post">
+            <table cellpadding="13" width="90%"  bgcolor="076464" align="center"
+            cellspacing="2">
+                <tr>
+                    <td colspan=2>
+                    <center><font size=8><b>Student Registration Form</b></font></center></td>
+                </tr>
 
-</head>
-<body>
-<form action="connect.php" name="StudentRegistration" onsubmit="return(validate());" method="post">
+                <tr>
+                    <td style="font-size: 20px; color: white;">First Name</td>
+                    <td><input type="text" id="firstname" size="30" name="firstname"  ></td>
+                </tr>
 
-<table cellpadding="13" width="90%"  bgcolor="076464" align="center"
-cellspacing="2">
+                <tr>
+                    <td style="font-size: 20px; color: white;">Last Name</td>
+                    <td><input type="text" name="lastname" id="lastname"
+                    size="30"></td>
+                </tr>
 
-<tr>
-<td colspan=2>
-<center><font size=8><b>Student Registration Form</b></font></center>
-</td>
-</tr>
+                <tr>
+                    <td style="font-size: 20px; color: white;">Personal Address</td>
+                    <td><input type="text" name="personaladdress"
+                    id="personaladdress" size="30"></td>
+                </tr>
 
-<tr>
-<td style="font-size: 20px; color: white;">First Name</td>
-<td><input type="text" id="firstname" size="30" name="firstname"  ></td>
-</tr>
+                <tr>
+                    <td style="font-size: 20px; color: white;">Gender</td>
+                    <td style="color: white;"><input type="radio" name="gender" value="male" size="10">Male
+                    <input type="radio" name="gender" value="Female" size="10">Female</td>
+                </tr>
 
-<tr>
-<td style="font-size: 20px; color: white;">Last Name</td>
-<td><input type="text" name="lastname" id="lastname"
-size="30"></td>
-</tr>
+                <tr>
+                    <td style="font-size: 20px; color: white;">City</td>
+                    <td><input type="text" name="city" id="city"
+                    size="30"></td>
+                </tr>
 
-<tr>
-<td style="font-size: 20px; color: white;">Personal Address</td>
-<td><input type="text" name="personaladdress"
-id="personaladdress" size="30"></td>
-</tr>
+                <tr>
+                    <td style="font-size: 20px; color: white;">Course</td>
+                    <td><input type="text" name="course" id="course"
+                    size="30"></td>
+                </tr>
 
-<tr>
-<td style="font-size: 20px; color: white;">Gender</td>
-<td style="color: white;"><input type="radio" name="gender" value="male" size="10">Male
-<input type="radio" name="gender" value="Female" size="10">Female</td>
-</tr>
+                <tr>
+                    <td style="font-size: 20px; color: white;">State</td>
+                    <td><input type="text" name="state" id="state"
+                    size="30"></td>
+                </tr>
 
-<tr>
-<td style="font-size: 20px; color: white;">City</td>
-<td><input type="text" name="city" id="city"
-    size="30"></td>
-    </tr>
+                </tr>
 
-<tr>
-<td style="font-size: 20px; color: white;">Course</td>
-<td><input type="text" name="course" id="course"
-    size="30"></td>
-    </tr>
+                <tr>
+                    <td style="font-size: 20px; color: white;">PIN</td>
+                    <td><input type="text" name="pin" id="pin" size="30"></td>
+                </tr>
 
+                <tr>
+                    <td style="font-size: 20px; color: white;">Email</td>
+                    <td><input type="text" name="email" id="email" size="30"></td>
+                </tr>
 
-<tr>
-<td style="font-size: 20px; color: white;">State</td>
-<td><input type="text" name="state" id="state"
-    size="30"></td>
-    </tr>
+                <tr>
+                    <td style="font-size: 20px; color: white;">Phone Number</td>
+                    <td><input type="text" name="phone" id="phone" size="30"></td>
+                </tr>
 
-</tr>
-<tr>
-<td style="font-size: 20px; color: white;">PIN</td>
-<td><input type="text" name="pin" id="pin" size="30"></td>
-
-</tr>
-<tr>
-<td style="font-size: 20px; color: white;">Email</td>
-<td><input type="text" name="email" id="email" size="30"></td>
-</tr>
-
-<tr>
-<td style="font-size: 20px; color: white;">Phone Number</td>
-<td><input type="text" name="phone" id="phone" size="30"></td>
-</tr>
-<tr>
-<td colspan="2"><input type="submit" value="Submit Form" style="background-color: #e4ab0f; color : black; border:none; margin-left: 81vh; width: 120px; height: 30px;" /></td>
-</tr>
-</table>
-</form>
-<script src="script.js"></script>
-</body>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Submit Form" style="background-color: #e4ab0f; color : black; border:none; margin-left: 81vh; width: 120px; height: 30px;" /></td>
+                </tr>
+            </table>
+        </form>
+        <script src="script.js"></script>
+    </body>
 </html>
